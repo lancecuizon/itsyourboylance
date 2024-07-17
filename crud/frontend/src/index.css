@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: powderblue;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+/* Item Form */
+
+.form-table{
+  width: 30%;
+  margin-left: 10px;
+}
+
+table {
+  border-collapse: collapse; 
+  font-family: Arial, Helvetica, sans-serif; 
+  width: 800px; 
+  table-layout: fixed;
+}
+
+table td {
+  background-color: white;
+}
+
+
+.table-label {
+  background-color: teal;
+  height: 0.25in; 
+  font-size: 62.5%;
+  color: white;
+  text-align: center;
+}
+
+input[type='text'], input[type='date'], input[type='email'] {
+  width: 90%;
+  border: 0;
+  height: 0.25in; 
+  font-size: 62.5%;
+}
+
+
+input[type='text']:focus, input[type='date']:focus, input[type='email']:focus {
+  border: 0;
+  outline: 0;
+}
+
+.submit-button {
+  margin-top: 10px;
+  padding: 5px 20px 5px 20px;
+  border: 0;
+}
+
+
+/* Item list */
+
+.title-list {
+  height: 0.2in; 
+  font-size: 72.5%; 
+  background-color: teal;
+  color: white;
+  border-width: 1px 1px 0px 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.list-label {
+  height: 0.25in; 
+  font-size: 80.5%;
+  background-color:gray;
+  color: white;
+  border-width: 0px 0px 1px 0px;
+  border-color: black;
+  border-style: solid;
+}
+
+.item {
+  height: 0.25in; 
+  font-size: 62.5%;
+  border: 1px solid black;
+}
+
+.list-button-edit, .list-button-delete {
+  border: 0;
+}
+
+.list-button-delete {
+  background-color: rgb(85, 1, 1);
+  color: white;
+}
+
+.list-button-edit {
+  background-color: blue;
+  color: white;
+}
